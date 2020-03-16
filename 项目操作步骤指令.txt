@@ -1,0 +1,14 @@
+1.material文件夹操作步骤：
+1.1：npm i
+1.2：去node_modules文件夹下找react-scripts>config>webpack.config..js
+然后我们打开该文件添加一句话:
+externals:{
+    'BMap':'BMap',
+  }
+1.3：运行指令 npm start打开文件
+
+
+2.material-api文件夹操作步骤：
+2.1：npm i
+2.1 npm i cors
+2.1：运行指令node index.js
